@@ -1,0 +1,21 @@
+.funcion-card {
+        transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        cursor: pointer;
+    }
+
+    .funcion-card:hover {
+        background-color: #6c757d !important; /* bg-secondary */
+        color: white !important;
+        transform: scale(1.05);
+        z-index: 10;
+    }
+
+    .funcion-card:hover .card-title,
+    .funcion-card:hover .card-text {
+        color: white !important;
+    }
+
+    .funcion-card:hover img {
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+    }
